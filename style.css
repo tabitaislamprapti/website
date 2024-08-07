@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #999797;
+}
+
+.Wraper{
+   width: 1120px;
+   background-color: #ddd;
+   height: 100vh;
+   margin: 0px auto;
+}
+.header_area{
+    width: 100%;
+    height: ;
+    background-color: rgb(196, 196, 175);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+
+}
+.logo img{
+    height: 40px;
+    border-radius: 50px;
+
+    margin: 15px;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+    
+
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    padding: 15px;
+
+}
+.button a{
+    text-decoration: none;
+    /* margin: 15px; */
+    color: black;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 5px;
+    margin-right: 10px;
+
+
+}
+
+/* slider part start  */
+.slider_area{
+    overflow: hidden;
+   
+}
+.slider{
+    display: flex;
+    width: 400%;
+    position: absolute;
+    animation: slide 20s infinite;
+    -webkit-animation: slide 20s infinite;
+}
+.slider img{
+    width: 25%;
+    height: 100vh;
+}
+@keyframes slide{
+    0%{
+        left: 0%;
+
+    }
+    35%{
+        left: 0%;
+
+    }
+    40%{
+        left: -100%;
+
+    }
+    50%{
+        left: -200%;
+
+    }
+    70%{ 
+        left: -300%;
+
+
+    }
+    100%{
+
+      left:-300%;
+    }
+
+
+}
+/* slider part end */
