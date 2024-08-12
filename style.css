@@ -1,101 +1,59 @@
 *{
     padding: 0;
     margin: 0;
-}
-body{
-    background-color: #999797;
+  
 }
 
-.Wraper{
-   width: 1120px;
-   background-color: #ddd;
-   height: 100vh;
-   margin: 0px auto;
+.wraper{
+    height: 100vh;
+    width: 1120px;
+    background-color: #ddd;
+    margin: 0 auto;
 }
-.header_area{
-    width: 100%;
-    height: ;
-    background-color: rgb(196, 196, 175);
-    display: flex;
-    justify-content: space-between;
+.year{
+    font-size: 50px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.month{
+    font-size: 60px;
+    text-align: center;
     align-items: center;
-   
 
+    margin: 0 auto;
+    
 }
-.logo img{
-    height: 40px;
-    border-radius: 50px;
+.date{
+    font-size: 300px;
+    margin: 10px 200px;
+    padding: 10px;
 
-    margin: 15px;
-}
-.menu ul{
-    display: flex;
-    list-style: none;
+  
+    position: absolute;
+ 
     
 
 }
-.menu a{
-    text-decoration: none;
-    color: black;
+.date_part{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: solid 3px ;
+    margin: 10px 200px;
+    padding-bottom: 0px;
+}
+.day{
+    writing-mode: vertical-rl;
+    justify-content: center;
+    align-items: center;
+    border-right: solid;
     font-size: large;
-    padding: 15px;
-
-}
-.button a{
-    text-decoration: none;
-    /* margin: 15px; */
-    color: black;
-    border: 2px solid black;
-    border-radius: 25px;
-    padding: 5px;
-    margin-right: 10px;
-
-
-}
-
-/* slider part start  */
-.slider_area{
-    overflow: hidden;
-   
-}
-.slider{
+    width: 100px;
     display: flex;
-    width: 400%;
-    position: absolute;
-    animation: slide 20s infinite;
-    -webkit-animation: slide 20s infinite;
+    position: relative;
+    font-size: 60px;
+    text-orientation:upright
+;
+ 
+    
+    height: 380px;
 }
-.slider img{
-    width: 25%;
-    height: 100vh;
-}
-@keyframes slide{
-    0%{
-        left: 0%;
-
-    }
-    35%{
-        left: 0%;
-
-    }
-    40%{
-        left: -100%;
-
-    }
-    50%{
-        left: -200%;
-
-    }
-    70%{ 
-        left: -300%;
-
-
-    }
-    100%{
-
-      left:-300%;
-    }
-
-
-}
-/* slider part end */
